@@ -1,6 +1,6 @@
 module github.com/evcc-io/evcc
 
-go 1.22.0
+go 1.25.0
 
 require (
 	dario.cat/mergo v1.0.0
@@ -25,7 +25,7 @@ require (
 	github.com/denisbrodbeck/machineid v1.0.1
 	github.com/dmarkham/enumer v1.5.9
 	github.com/dylanmei/iso8601 v0.1.0
-	github.com/eclipse/paho.mqtt.golang v1.4.3
+	github.com/eclipse/paho.mqtt.golang v1.5.1
 	github.com/enbility/cemd v0.2.2
 	github.com/enbility/eebus-go v0.2.0
 	github.com/evcc-io/tesla-proxy-client v0.0.0-20240220130921-cdf51549e213
@@ -36,7 +36,7 @@ require (
 	github.com/go-telegram-bot-api/telegram-bot-api/v5 v5.5.1
 	github.com/godbus/dbus/v5 v5.1.0
 	github.com/gokrazy/updater v0.0.0-20240113102150-4ac511a17e33
-	github.com/golang-jwt/jwt/v5 v5.2.0
+	github.com/golang-jwt/jwt/v5 v5.2.2
 	github.com/google/go-github/v32 v32.1.0
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/handlers v1.5.2
@@ -93,12 +93,12 @@ require (
 	go.uber.org/mock v0.4.0
 	golang.org/x/crypto/x509roots/fallback v0.0.0-20240108164429-dbb6ec16ecef
 	golang.org/x/exp v0.0.0-20240119083558-1b970713d09a
-	golang.org/x/net v0.21.0
-	golang.org/x/oauth2 v0.17.0
-	golang.org/x/sync v0.6.0
-	golang.org/x/text v0.14.0
-	google.golang.org/grpc v1.61.0
-	google.golang.org/protobuf v1.32.0
+	golang.org/x/net v0.58.0
+	golang.org/x/oauth2 v0.36.0
+	golang.org/x/sync v0.22.0
+	golang.org/x/text v0.41.0
+	google.golang.org/grpc v1.83.2
+	google.golang.org/protobuf v1.36.11
 	gopkg.in/yaml.v3 v3.0.1
 	gorm.io/gorm v1.25.6
 	nhooyr.io/websocket v1.8.10
@@ -112,7 +112,7 @@ require (
 	github.com/apapsch/go-jsonmerge/v2 v2.0.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bitly/go-simplejson v0.5.0 // indirect
-	github.com/cespare/xxhash/v2 v2.2.0 // indirect
+	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/fatih/color v1.16.0 // indirect
@@ -131,9 +131,8 @@ require (
 	github.com/gobwas/pool v0.2.1 // indirect
 	github.com/gobwas/ws v1.3.2 // indirect
 	github.com/golang/mock v1.6.0 // indirect
-	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
-	github.com/gorilla/websocket v1.5.1 // indirect
+	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/grid-x/serial v0.0.0-20211107191517-583c7356b3aa // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/holoplot/go-avahi v1.0.1 // indirect
@@ -184,13 +183,12 @@ require (
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 	gitlab.com/c0b/go-ordered-json v0.0.0-20201030195603-febf46534d5a // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	golang.org/x/crypto v0.19.0 // indirect
-	golang.org/x/mod v0.14.0 // indirect
-	golang.org/x/sys v0.17.0 // indirect
-	golang.org/x/term v0.17.0 // indirect
-	golang.org/x/tools v0.17.0 // indirect
-	google.golang.org/appengine v1.6.8 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20240125205218-1f4bbc51befe // indirect
+	golang.org/x/crypto v0.55.0 // indirect
+	golang.org/x/mod v0.38.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
+	golang.org/x/term v0.45.0 // indirect
+	golang.org/x/tools v0.48.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260526163538-3dc84a4a5aaa // indirect
 	gopkg.in/go-playground/validator.v9 v9.31.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/sourcemap.v1 v1.0.5 // indirect
